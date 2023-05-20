@@ -9,8 +9,8 @@ module.exports = () => ({
     run: 1500,
   },
   ignoreFileLoadingDependencyTracking: true,
-  files: ["src/**/*.js", '!**/*.test.js'],
-  tests: ["**/*.test.js", "!node_modules/**/*"],
+  // files: ["src/**/*.js", '!**/*.test.js'],
+  // tests: ["**/*.test.js", "!node_modules/**/*"],
   runMode: "onsave",
   maxLogEntrySize: 999999,
 });
